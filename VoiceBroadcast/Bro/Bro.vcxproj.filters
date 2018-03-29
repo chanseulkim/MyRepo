@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="RECODER">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="RECODER\WASAPI">
+      <UniqueIdentifier>{2e67b5b2-bd01-4f69-bb8b-33774b096983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RECODER\WASAPI\source">
+      <UniqueIdentifier>{3f4f9387-e2ae-4c45-8f66-f4fedfc96b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RECODER\WASAPI\header">
+      <UniqueIdentifier>{a381f3e2-bc2e-48ca-a929-de480167480e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RECODER\Capture">
+      <UniqueIdentifier>{3c0c35b7-1303-4945-94ac-bc6bb90c6ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RECODER\Capture\source">
+      <UniqueIdentifier>{01ce7dc5-f7a0-4eaa-8db6-a0f2d7f7d6c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RECODER\Capture\header">
+      <UniqueIdentifier>{a8ea50af-7ac5-42e7-a999-3243df48248c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RECODER\Queue">
+      <UniqueIdentifier>{ebd67a55-f764-42f1-9335-5ef0ee8d172a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RECODER\Queue\header">
+      <UniqueIdentifier>{ca371ca3-4aa8-4f61-afde-61fc3b9dba7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RECODER\Queue\source">
+      <UniqueIdentifier>{b9bc34c8-1873-4ebd-baa2-148fe238d88a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ENCODER">
+      <UniqueIdentifier>{00c3ab61-8f99-4f68-a5c2-837790ce1652}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>RECODER</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>RECODER</Filter>
+    </ClInclude>
+    <ClInclude Include="RECODER\WASAPI\CmdLine.h">
+      <Filter>RECODER\WASAPI\header</Filter>
+    </ClInclude>
+    <ClInclude Include="RECODER\WASAPI\WASAPICapture.h">
+      <Filter>RECODER\WASAPI\header</Filter>
+    </ClInclude>
+    <ClInclude Include="RECODER\Capture\Capture.h">
+      <Filter>RECODER\Capture\header</Filter>
+    </ClInclude>
+    <ClInclude Include="RECODER\Capture\defines.h">
+      <Filter>RECODER\Capture\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>RECODER</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>RECODER</Filter>
+    </ClCompile>
+    <ClCompile Include="RECODER\WASAPI\WASAPICapture.cpp">
+      <Filter>RECODER\WASAPI\source</Filter>
+    </ClCompile>
+    <ClCompile Include="RECODER\WASAPI\WASAPICaptureSharedEventDriven.cpp">
+      <Filter>RECODER\WASAPI\source</Filter>
+    </ClCompile>
+    <ClCompile Include="RECODER\WASAPI\CmdLine.cpp">
+      <Filter>RECODER\WASAPI\source</Filter>
+    </ClCompile>
+    <ClCompile Include="RECODER\Capture\Capture.cpp">
+      <Filter>RECODER\Capture\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

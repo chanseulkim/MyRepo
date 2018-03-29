@@ -1,0 +1,27 @@
+﻿빌드 시작: 2018-03-29 오후 6:12:18
+     1>2 노드의 "D:\1_Work\SUB\Broadcast_chan\Bro\Bro\Bro.vcxproj" 프로젝트(Build 대상)입니다.
+     1>InitializeBuildStatus:
+         "Debug\Bro.unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ID:\1_Work\SUB\Broadcast_chan\Bro\Bro\RECODER\WASAPI /ID:\1_Work\SUB\Broadcast_chan\Bro\Bro\RECODER\Capture /ID:\1_Work\SUB\Broadcast_chan\Bro\Bro\ /ID:\1_Work\SUB\Broadcast_chan\Bro\ /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt RECODER\Capture\Capture.cpp RECODER\WASAPI\CmdLine.cpp RECODER\WASAPI\WASAPICapture.cpp RECODER\WASAPI\WASAPICaptureSharedEventDriven.cpp
+         WASAPICaptureSharedEventDriven.cpp
+         WASAPICapture.cpp
+         CmdLine.cpp
+         Capture.cpp
+         코드를 생성하고 있습니다...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\1_Work\SUB\Broadcast_chan\Bro\Debug\Bro.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib avrt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\1_Work\SUB\Broadcast_chan\Bro\Debug\Bro.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1_Work\SUB\Broadcast_chan\Bro\Debug\Bro.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Capture.obj
+         Debug\CmdLine.obj
+         Debug\WASAPICapture.obj
+         Debug\WASAPICaptureSharedEventDriven.obj
+         Debug\stdafx.obj
+         Bro.vcxproj -> D:\1_Work\SUB\Broadcast_chan\Bro\Debug\Bro.exe
+       FinalizeBuildStatus:
+         "Debug\Bro.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\Bro.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\1_Work\SUB\Broadcast_chan\Bro\Bro\Bro.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:03.04
